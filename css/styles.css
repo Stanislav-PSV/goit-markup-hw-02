@@ -1,7 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-
 :root {
     --header-text-color: #212121;
     --header-second-text-color: #757575;
@@ -11,12 +10,23 @@ body {
     --text-color: #757575;
     --accent-color: #2196F3;
 }
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h1,h2, h3, p, ul {
+    margin: 0;
+}
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .visually-hidden {
     position: absolute;
@@ -29,6 +39,14 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
 }
 
 /* Section Heading */
