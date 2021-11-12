@@ -1,9 +1,9 @@
 :root {
-  --black-color: #212121;
-  --gray-color: #757575;
-  --white-color: #ffffff;
-  --second-gray-color: rgba(255, 255, 255, 0.6);
+  --мain-color: #212121;
+  --second-color: #ffffff;
+  --text-color: #757575;
   --accent-color: #2196f3;
+  --address-color: rgba(255, 255, 255, 0.6);
 }
 
 button {
@@ -59,12 +59,12 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--white-color);
+  background-color: var(--second-color);
 }
 
 /* Section Heading */
 .heder {
-  background-color: var(--white-color);
+  background-color: var(--second-color);
 }
 .header-logo {
   font-family: Raleway;
@@ -72,7 +72,7 @@ ul {
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo-web {
@@ -85,7 +85,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--мain-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -96,7 +96,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--gray-color);
+  color: var(--text-color);
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
@@ -114,7 +114,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: var(--second-color);
 }
 .hero-btn {
   font-weight: 700;
@@ -124,7 +124,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white-color);
+  color: var(--second-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -137,13 +137,13 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--black-color);
+  color: var(--мain-color);
 }
 .advantage-desc {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--gray-color);
+  color: var(--text-color);
 }
 
 /* Sektion Work */
@@ -153,7 +153,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: var(--мain-color);
 }
 
 /* Section Our Team */
@@ -166,7 +166,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: var(--мain-color);
 }
 .team-title-name {
   font-weight: 500;
@@ -174,14 +174,14 @@ ul {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: var(--мain-color);
 }
 .team-desc {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--gray-color);
+  color: var(--text-color);
 }
 
 /*  Section Footer */
@@ -202,13 +202,13 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--second-color);
 }
 .footer-addres {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--second-color);
 }
 .footer-addres:hover,
 .footer-addres:focus {
@@ -218,7 +218,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--second-gray-color);
+  color: var(--address-color);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -232,13 +232,13 @@ ul {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--мain-color);
   background-color: #f5f4fa;
   border-radius: 4px;
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  color: var(--white-color);
+  color: var(--second-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -249,11 +249,11 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--black-color);
+  color: var(--мain-color);
 }
 .portfolio-desc {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--gray-color);
+  color: var(--text-color);
 }
